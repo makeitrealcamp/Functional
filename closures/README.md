@@ -37,13 +37,6 @@ Escribe una funcion `nonSense` que recibe como argumento un `string`. Esta funci
  };
 ```
 
-function nonSense(string) {
-  var blab = function(){
-    alert(string);
-  };
-  return blab
-}
-
 ###Paso 2:
 
 Ahora en vez de invocar inmediatamente a `blab` dentro de `nonSense`, cambia el codigo dentro de `nonSense` para que contenga un `setTimeout` que invoque a `blab` depues de 2 segundos de que `nonSense` sea invocada. Como tal la funcion `blab` se debe mantener igual.
